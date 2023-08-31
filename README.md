@@ -24,9 +24,7 @@ The sinking of the Titanic on April 15, 1912, was a tragic event that resulted i
 
 3. **Model Selection and Training**: We employed the RandomForestClassifier to predict survival. The initial model was trained using the training dataset.
 
-```python
-# Example code for model training
-from sklearn.ensemble import RandomForestClassifier
+### Conclusion
+The Titanic Survival Prediction project demonstrates the power of data analysis and machine learning in understanding historical events. By combining feature engineering, model training, and evaluation, we aim to uncover insights into the factors that influenced survival rates during the Titanic disaster.
 
-model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
-model.fit(X_train, y_train)
+Feel free to explore the code and methodologies provided here to gain a deeper understanding of the project and its findings.
